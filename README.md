@@ -53,23 +53,35 @@ ux-folder-files/
 │   │   └── ux-auditor-bastien-scapin.md  # ✅ Audit 18 critères Bastien & Scapin
 │   │
 │   ├── workshops/                     # Facilitateurs de workshops
-│   │   └── (À venir)
+│   │   ├── design-thinking-facilitator.md  # ✅ Facilitation Design Thinking (5 phases)
+│   │   ├── design-sprint-conductor.md      # ✅ Conduite Design Sprint (Google Ventures)
+│   │   ├── story-mapping-facilitator.md    # ✅ Story Mapping (Jeff Patton)
+│   │   ├── impact-mapping-facilitator.md   # ✅ Impact Mapping (Gojko Adzic)
+│   │   └── lean-ux-canvas-facilitator.md   # ✅ Lean UX Canvas (Jeff Gothelf)
 │   │
 │   ├── data-intelligence/             # Analystes de données
-│   │   └── (À venir)
+│   │   └── (À venir Sprint 3)
 │   │
 │   ├── deliverables/                  # Générateurs de livrables
-│   │   └── (À venir)
+│   │   └── (À venir Sprint 4)
 │   │
 │   └── orchestrators/                 # Orchestrateurs et meta-agents
-│       └── (À venir)
+│       └── (À venir Sprint 5)
 │
 ├── templates/                         # Templates de livrables standardisés
-│   └── (À venir)
+│   └── workshops/                      # Templates workshops
+│       ├── empathy-map-template.md         # ✅ Empathy Map (6 quadrants)
+│       ├── pov-statement-template.md       # ✅ POV Statement (Define phase)
+│       ├── hmw-questions-template.md       # ✅ How Might We (Ideate phase)
+│       ├── story-map-template.md           # ✅ User Story Map (Jeff Patton)
+│       ├── impact-map-template.md          # ✅ Impact Map (Gojko Adzic)
+│       └── lean-ux-canvas-template.md      # ✅ Lean UX Canvas (8 boxes)
 │
 ├── frameworks/                        # Références méthodologiques détaillées
 │   ├── nielsen-10-heuristics.md       # ✅ 10 heuristiques Nielsen complètes
-│   └── bastien-scapin-18-criteria.md  # ✅ 18 critères Bastien & Scapin détaillés
+│   ├── bastien-scapin-18-criteria.md  # ✅ 18 critères Bastien & Scapin détaillés
+│   ├── design-thinking-reference.md   # ✅ Design Thinking (Stanford d.school, IDEO)
+│   └── design-sprint-reference.md     # ✅ Design Sprint (Google Ventures)
 │
 └── docs/                              # Documentation
     └── getting-started.md             # ✅ Guide de démarrage complet
@@ -195,6 +207,153 @@ Ce guide contient :
 
 ---
 
+### Facilitateurs de Workshops
+
+#### 🎨 Design Thinking Facilitator
+**Fichier :** `agents/workshops/design-thinking-facilitator.md`
+
+**Spécialisation :**
+- Facilitation des 5 phases Stanford d.school (Empathize, Define, Ideate, Prototype, Test)
+- Méthodologie IDEO Design Thinking Toolkit
+- Guidage interactif adapté au contexte (remote/présentiel, durée variable)
+- Génération de livrables par phase
+
+**Utilisation typique :**
+- Ateliers Design Thinking (half-day, full-day, multi-sessions)
+- Exploration de problèmes complexes centrés utilisateur
+- Innovation produit/service
+- Transformation d'insights en solutions testables
+
+**Output :**
+- Empathy maps (template fourni)
+- POV statements (Point of View)
+- HMW questions (How Might We)
+- Ideation boards (Crazy 8s, SCAMPER)
+- Prototypes low-fi à mid-fi
+- Test findings et itérations
+
+**👉 Référence framework :** `frameworks/design-thinking-reference.md`
+**👉 Templates associés :** `templates/workshops/empathy-map-template.md`, `pov-statement-template.md`, `hmw-questions-template.md`
+
+---
+
+#### ⚡ Design Sprint Conductor
+**Fichier :** `agents/workshops/design-sprint-conductor.md`
+
+**Spécialisation :**
+- Conduite de Design Sprints selon méthodologie Google Ventures (Jake Knapp)
+- Formats : 5 jours classique, 4 jours (Sprint 2.0), 2-3 jours (condensé)
+- Facilitation jour par jour avec templates et timing précis
+- Adaptation remote/hybride/présentiel
+- Decision-making frameworks (dot voting, supervote)
+
+**Utilisation typique :**
+- Validation rapide d'une idée produit/feature (5 jours)
+- Résoudre un problème critique business
+- Aligner équipe cross-fonctionnelle (product, design, dev, business)
+- Tester une hypothèse avec vrais utilisateurs avant dev
+
+**Output :**
+- Sprint questions et long-term goal
+- Problem map et user flow
+- Solution sketches et storyboard
+- Prototype haute-fidélité testable (Figma, Keynote)
+- Test findings (5 interviews utilisateurs)
+- Next steps et décision GO/NO-GO
+
+**👉 Référence framework :** `frameworks/design-sprint-reference.md`
+
+---
+
+#### 📊 Story Mapping Facilitator
+**Fichier :** `agents/workshops/story-mapping-facilitator.md`
+
+**Spécialisation :**
+- Facilitation sessions Story Mapping (méthodologie Jeff Patton)
+- Construction collaborative de user story maps
+- Priorisation et découpage en releases (MVP, Release 1, 2, 3)
+- Identification de Walking Skeleton (parcours minimum viable)
+- Adaptation Agile/Scrum/Kanban/Shape Up
+
+**Utilisation typique :**
+- Planification roadmap produit
+- Priorisation backlog collaboratif
+- Alignement équipe sur parcours utilisateur
+- Découpage features complexes en releases
+
+**Output :**
+- User story map structurée (backbone + vertical slicing)
+- Walking skeleton (parcours end-to-end minimum)
+- MVP scope clairement défini
+- Release roadmap priorisée (MoSCoW, RICE, Value vs Effort)
+- Backlog Agile organisé
+
+**👉 Template associé :** `templates/workshops/story-map-template.md`
+
+---
+
+#### 🎯 Impact Mapping Facilitator
+**Fichier :** `agents/workshops/impact-mapping-facilitator.md`
+
+**Spécialisation :**
+- Création d'Impact Maps (méthodologie Gojko Adzic)
+- Alignement objectifs business → acteurs → impacts → deliverables (WHY-WHO-HOW-WHAT)
+- Priorisation stratégique data-driven (RICE scoring)
+- Lien avec OKRs et stratégie produit
+- Identification d'hypothèses critiques à valider
+
+**Utilisation typique :**
+- Planification stratégique produit
+- Alignement business-produit-design-dev
+- Priorisation features par impact business
+- Éviter le feature bloat (features sans impact mesurable)
+
+**Output :**
+- Impact map visuelle 4 niveaux
+- Objectifs business SMART clarifiés avec métriques
+- Acteurs identifiés et priorisés
+- Impacts mesurables par acteur (baseline → target)
+- Deliverables priorisés avec RICE scores
+- Hypothèses critiques et plan de validation
+- Roadmap timeline (Q1-Q4)
+
+**👉 Template associé :** `templates/workshops/impact-map-template.md`
+
+---
+
+#### 🚀 Lean UX Canvas Facilitator
+**Fichier :** `agents/workshops/lean-ux-canvas-facilitator.md`
+
+**Spécialisation :**
+- Remplissage collaboratif Lean UX Canvas (méthodologie Jeff Gothelf)
+- Transformation d'assumptions en hypothèses testables
+- Définition de MVPs pour validation rapide
+- Build-Measure-Learn cycles (Lean Startup)
+- Hypothesis-driven design
+
+**Utilisation typique :**
+- Lancement nouveau produit/feature majeure
+- Alignement cross-fonctionnel sur hypothèses
+- Définition d'expérimentations mesurables
+- Culture d'apprentissage rapide (fail fast)
+
+**Output :**
+- Lean UX Canvas 8 boxes complété :
+  1. Business Problem
+  2. Business Outcomes (lagging + leading indicators)
+  3. Users & Customers
+  4. User Benefits
+  5. Solution Ideas
+  6. Hypotheses (testables avec success criteria)
+  7. Critical Learning (hypothèse la plus risquée)
+  8. MVP (Minimum Viable Product pour validation)
+- Plan d'expérimentation actionnable
+- Decision framework (GO/ITERATE/PIVOT)
+
+**👉 Template associé :** `templates/workshops/lean-ux-canvas-template.md`
+
+---
+
 ## 🔧 Frameworks de Référence
 
 ### 📖 Nielsen 10 Heuristiques
@@ -267,6 +426,61 @@ Pour chaque critère :
 
 ---
 
+### 📖 Design Thinking Reference
+**Fichier :** `frameworks/design-thinking-reference.md`
+
+Référence complète de la méthodologie Design Thinking (Stanford d.school + IDEO) :
+
+**5 Phases Détaillées :**
+1. **Empathize** : Empathy interviews, observation terrain, immersion utilisateur
+2. **Define** : POV statements, problem synthesis, HMW questions
+3. **Ideate** : Brainstorming, Crazy 8s, SCAMPER, divergent thinking
+4. **Prototype** : Rapid prototyping, low-fi to mid-fi, fail fast
+5. **Test** : User testing, feedback loops, iteration
+
+Pour chaque phase :
+- ✅ Objectifs et livrables
+- ✅ Techniques et outils recommandés
+- ✅ Timing et facilitation best practices
+- ✅ Templates et exemples concrets
+- ✅ Remote vs présentiel adaptations
+
+**Quand utiliser** : Innovation produit/service, exploration problèmes complexes, transformation insights en solutions testables
+
+**Liens** : Utilisé par agent `design-thinking-facilitator.md`
+
+---
+
+### 📖 Design Sprint Reference
+**Fichier :** `frameworks/design-sprint-reference.md`
+
+Référence complète de la méthodologie Design Sprint (Google Ventures - Jake Knapp) :
+
+**Structure 5 Jours (Classic Sprint) :**
+- **Monday - Map** : Long-term goal, sprint questions, problem map, expert interviews
+- **Tuesday - Sketch** : Lightning demos, 4-step sketching (notes → ideas → Crazy 8s → solution sketch)
+- **Wednesday - Decide** : Art museum, heat map, speed critique, straw poll, supervote
+- **Thursday - Prototype** : Asset collection, building (Figma/Keynote), trial run
+- **Friday - Test** : 5 user interviews, pattern observation, synthesis, next steps
+
+**Variations :**
+- Design Sprint 2.0 (4 jours) : Merge Monday-Tuesday
+- Sprint condensé (2-3 jours) : Cas urgents
+- Remote facilitation : Miro, FigJam, Zoom best practices
+
+Pour chaque jour :
+- ✅ Agenda détaillé avec timing
+- ✅ Rôles et responsabilités (Decider, Facilitator, Participants)
+- ✅ Materials checklist (outils, supplies)
+- ✅ Templates jour par jour
+- ✅ Common pitfalls et solutions
+
+**Quand utiliser** : Validation rapide idée produit/feature (5 jours), résoudre problème critique business, aligner équipe cross-fonctionnelle
+
+**Liens** : Utilisé par agent `design-sprint-conductor.md`
+
+---
+
 ## 🎯 Use Cases
 
 ### Use Case 1 : Audit Rapide pour Sprint Planning
@@ -315,7 +529,7 @@ Pour chaque critère :
 
 ## 📊 Roadmap
 
-### ✅ Version 1.0 (Actuelle - Sprint 1)
+### ✅ Version 1.0 (Sprint 1 - Complété)
 - [x] Structure de dossiers complète
 - [x] Agent UX Auditor Nielsen
 - [x] Agent UX Auditor Bastien & Scapin
@@ -323,12 +537,15 @@ Pour chaque critère :
 - [x] Framework Bastien & Scapin 18 critères
 - [x] Documentation Getting Started
 
-### 🚧 Version 1.1 (Sprint 2 - Workshop Facilitators)
-- [ ] Agent Design Thinking Facilitator
-- [ ] Agent Design Sprint Conductor
-- [ ] Agent Story Mapping Guide
-- [ ] Templates : Persona, POV Statement, User Journey
-- [ ] Framework : Design Thinking Reference
+### ✅ Version 1.1 (Sprint 2 - Complété - Workshop Facilitators)
+- [x] Agent Design Thinking Facilitator (5 phases Stanford d.school)
+- [x] Agent Design Sprint Conductor (Google Ventures)
+- [x] Agent Story Mapping Facilitator (Jeff Patton)
+- [x] Agent Impact Mapping Facilitator (Gojko Adzic)
+- [x] Agent Lean UX Canvas Facilitator (Jeff Gothelf)
+- [x] Framework Design Thinking Reference
+- [x] Framework Design Sprint Reference
+- [x] Templates workshops (6 templates) : Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas
 
 ### 🚧 Version 1.2 (Sprint 3 - Data Intelligence)
 - [ ] Agent Analytics Interpreter
@@ -461,14 +678,19 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
 
 ## 📈 Statistiques
 
-- **Agents disponibles** : 2
-- **Frameworks** : 2
+- **Agents disponibles** : 7
+  - Analyse : 2 (Nielsen, Bastien & Scapin)
+  - Workshops : 5 (Design Thinking, Design Sprint, Story Mapping, Impact Mapping, Lean UX Canvas)
+- **Frameworks** : 4
+  - Analyse : 2 (Nielsen 10 heuristiques, Bastien & Scapin 18 critères)
+  - Workshops : 2 (Design Thinking, Design Sprint)
+- **Templates** : 6 (Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas)
 - **Critères d'évaluation** : 28 (10 Nielsen + 18 Bastien & Scapin)
-- **Workflows documentés** : 6
-- **Version** : 1.0 (Sprint 1 complété)
+- **Workflows documentés** : 10+
+- **Version** : 1.1 (Sprint 2 complété)
 
 ---
 
 **Transformez Claude en expert UX et accélérez votre pratique du design ! 🚀**
 
-*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01*
+*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01 (Sprint 2 - Workshop Facilitators)*
