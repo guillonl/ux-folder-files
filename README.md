@@ -49,8 +49,10 @@ ux-folder-files/
 │
 ├── agents/                            # Agents spécialisés par catégorie
 │   ├── analysis/                      # Agents d'analyse
-│   │   ├── ux-auditor-nielsen.md      # ✅ Audit 10 heuristiques Nielsen
-│   │   └── ux-auditor-bastien-scapin.md  # ✅ Audit 18 critères Bastien & Scapin
+│   │   ├── ux-auditor-nielsen.md           # ✅ Audit 10 heuristiques Nielsen
+│   │   ├── ux-auditor-bastien-scapin.md    # ✅ Audit 18 critères Bastien & Scapin
+│   │   ├── multi-framework-analyzer.md     # ✅ Consolidation Nielsen + B&S + WCAG
+│   │   └── design-system-auditor.md        # ✅ Audit design systems (tokens, patterns)
 │   │
 │   ├── workshops/                     # Facilitateurs de workshops
 │   │   ├── design-thinking-facilitator.md  # ✅ Facilitation Design Thinking (5 phases)
@@ -66,26 +68,36 @@ ux-folder-files/
 │   │   └── ux-research-scout.md             # ✅ Recherche compétitive et veille UX
 │   │
 │   ├── deliverables/                  # Générateurs de livrables
-│   │   └── (À venir Sprint 4)
+│   │   ├── persona-generator.md             # ✅ Personas data-driven
+│   │   ├── user-journey-mapper.md           # ✅ User journey maps
+│   │   └── accessibility-wcag-checker.md    # ✅ Audit accessibilité WCAG 2.1/2.2
 │   │
 │   └── orchestrators/                 # Orchestrateurs et meta-agents
 │       └── (À venir Sprint 5)
 │
 ├── templates/                         # Templates de livrables standardisés
-│   └── workshops/                      # Templates workshops
-│       ├── empathy-map-template.md         # ✅ Empathy Map (6 quadrants)
-│       ├── pov-statement-template.md       # ✅ POV Statement (Define phase)
-│       ├── hmw-questions-template.md       # ✅ How Might We (Ideate phase)
-│       ├── story-map-template.md           # ✅ User Story Map (Jeff Patton)
-│       ├── impact-map-template.md          # ✅ Impact Map (Gojko Adzic)
-│       └── lean-ux-canvas-template.md      # ✅ Lean UX Canvas (8 boxes)
+│   ├── workshops/                      # Templates workshops
+│   │   ├── empathy-map-template.md         # ✅ Empathy Map (6 quadrants)
+│   │   ├── pov-statement-template.md       # ✅ POV Statement (Define phase)
+│   │   ├── hmw-questions-template.md       # ✅ How Might We (Ideate phase)
+│   │   ├── story-map-template.md           # ✅ User Story Map (Jeff Patton)
+│   │   ├── impact-map-template.md          # ✅ Impact Map (Gojko Adzic)
+│   │   └── lean-ux-canvas-template.md      # ✅ Lean UX Canvas (8 boxes)
+│   │
+│   └── deliverables/                   # Templates livrables UX
+│       ├── persona-template.md             # ✅ Persona card (1-pager + détail)
+│       ├── user-journey-template.md        # ✅ User journey map (stages, touchpoints)
+│       ├── empathy-map-template.md         # ✅ Empathy map (6 quadrants + insights)
+│       └── wcag-checklist-template.md      # ✅ Checklist WCAG 2.1/2.2
 │
 ├── frameworks/                        # Références méthodologiques détaillées
 │   ├── nielsen-10-heuristics.md       # ✅ 10 heuristiques Nielsen complètes
 │   ├── bastien-scapin-18-criteria.md  # ✅ 18 critères Bastien & Scapin détaillés
 │   ├── design-thinking-reference.md   # ✅ Design Thinking (Stanford d.school, IDEO)
 │   ├── design-sprint-reference.md     # ✅ Design Sprint (Google Ventures)
-│   └── ux-metrics-reference.md        # ✅ UX Metrics (HEART, NPS, retention, A/B testing)
+│   ├── ux-metrics-reference.md        # ✅ UX Metrics (HEART, NPS, retention, A/B testing)
+│   ├── wcag-reference.md              # ✅ WCAG 2.1/2.2 (4 principes POUR, 78 critères)
+│   └── design-systems-reference.md    # ✅ Design Systems (tokens, patterns, governance)
 │
 └── docs/                              # Documentation
     └── getting-started.md             # ✅ Guide de démarrage complet
@@ -156,7 +168,7 @@ Ce guide contient :
 
 ---
 
-## 🎓 Agents Disponibles (v1.0)
+## 🎓 Agents Disponibles (v1.3)
 
 ### Agents d'Analyse
 
@@ -208,6 +220,138 @@ Ce guide contient :
 - Cross-reference optionnelle avec Nielsen
 
 **👉 Référence framework :** `frameworks/bastien-scapin-18-criteria.md`
+
+---
+
+#### 🔄 Multi-Framework Analyzer
+**Fichier :** `agents/analysis/multi-framework-analyzer.md`
+
+**Spécialisation :**
+- Consolidation et cross-reference de multiples frameworks (Nielsen + Bastien & Scapin + WCAG)
+- Identification des violations détectées par plusieurs frameworks (triangulation)
+- Pondération et scoring composite multi-dimensions
+- Création de roadmaps stratégiques unifiées
+
+**Utilisation typique :**
+- Audit complet nécessitant perspectives multiples
+- Priorisation basée sur convergence multi-frameworks
+- Rapport consolidé pour stakeholders C-level
+- Identification des problèmes systémiques vs isolés
+
+**Output :**
+- Matrice de convergence (quels problèmes détectés par quels frameworks)
+- Score composite pondéré (/100)
+- Heat map multi-dimensions
+- Roadmap stratégique par phases (Quick Wins → Core Fixes → Long-term)
+- Executive summary avec métriques clés
+
+**👉 Référence frameworks :** `frameworks/nielsen-10-heuristics.md`, `frameworks/bastien-scapin-18-criteria.md`, `frameworks/wcag-reference.md`
+
+---
+
+#### 🎨 Design System Auditor
+**Fichier :** `agents/analysis/design-system-auditor.md`
+
+**Spécialisation :**
+- Audit complet de design systems (tokens, composants, patterns, documentation)
+- Évaluation de la maturité et gouvernance
+- Benchmark avec Material Design, Carbon (IBM), Polaris (Shopify)
+- Analyse d'adoption et consistency cross-produits
+
+**Utilisation typique :**
+- Évaluation santé d'un design system existant
+- Identification des gaps de documentation
+- Audit de consistency entre produits/équipes
+- Préparation d'une refonte ou migration design system
+
+**Output :**
+- Design System Health Score (/100)
+- Audit par dimension (tokens, components, patterns, docs, adoption, governance)
+- Gap analysis avec priorités
+- Roadmap d'amélioration (Quick Wins → Foundational → Advanced)
+- Benchmark comparatif avec industry standards
+
+**👉 Référence framework :** `frameworks/design-systems-reference.md`
+
+---
+
+### Générateurs de Livrables
+
+#### 👤 Persona Generator
+**Fichier :** `agents/deliverables/persona-generator.md`
+
+**Spécialisation :**
+- Génération de personas data-driven basés sur recherche utilisateur
+- Synthèse de données qualitatives et quantitatives
+- Création de persona cards (1-pager) et profils détaillés
+- Validation et itération collaborative
+
+**Utilisation typique :**
+- Transformation de données de recherche en personas actionnables
+- Création de personas pour nouveau produit/feature
+- Mise à jour de personas existants avec nouvelles données
+- Alignement équipe sur représentation utilisateurs
+
+**Output :**
+- Persona card 1-pager (Quick View)
+- Profil détaillé (goals, frustrations, behaviors, journey highlights)
+- Scénarios d'usage typiques
+- Matrice de mapping persona × features
+
+**👉 Template associé :** `templates/deliverables/persona-template.md`
+
+---
+
+#### 🗺️ User Journey Mapper
+**Fichier :** `agents/deliverables/user-journey-mapper.md`
+
+**Spécialisation :**
+- Création de user journey maps détaillées
+- Mapping des touchpoints, émotions, pain points et opportunités
+- Visualisation du parcours end-to-end
+- Identification des moments of truth
+
+**Utilisation typique :**
+- Mapping parcours utilisateur existant (as-is)
+- Design de parcours cible (to-be)
+- Identification d'opportunités d'amélioration
+- Communication avec stakeholders
+
+**Output :**
+- Journey map visuelle (stages, touchpoints, emotions)
+- Pain points priorisés avec impact
+- Opportunités avec effort estimé
+- Service blueprint (backend actions, support systems)
+- Action plan par phase
+
+**👉 Template associé :** `templates/deliverables/user-journey-template.md`
+
+---
+
+#### ♿ Accessibility WCAG Checker
+**Fichier :** `agents/deliverables/accessibility-wcag-checker.md`
+
+**Spécialisation :**
+- Audit accessibilité selon WCAG 2.1/2.2
+- Évaluation des 4 principes POUR (Perceivable, Operable, Understandable, Robust)
+- Vérification par niveau de conformité (A, AA, AAA)
+- Recommandations techniques et design
+
+**Utilisation typique :**
+- Audit accessibilité avant lancement
+- Vérification conformité légale (RGAA, Section 508, ADA)
+- Identification des barrières pour utilisateurs handicapés
+- Création de roadmap accessibilité
+
+**Output :**
+- Score de conformité par niveau (A, AA, AAA)
+- Violations par principe POUR avec sévérité
+- Checklist interactive avec statuts
+- Recommandations techniques (code fixes)
+- Rapport exécutif pour stakeholders
+
+**👉 Référence framework :** `frameworks/wcag-reference.md`
+**👉 Template associé :** `templates/deliverables/wcag-checklist-template.md`
 
 ---
 
@@ -485,6 +629,63 @@ Pour chaque jour :
 
 ---
 
+### 📖 WCAG 2.1/2.2 Reference
+**Fichier :** `frameworks/wcag-reference.md`
+
+Référence complète des Web Content Accessibility Guidelines :
+
+**4 Principes POUR :**
+1. **Perceivable** : Contenu présentable de manière perceptible (alternatives textuelles, adaptable, distinguable)
+2. **Operable** : Interface utilisable (clavier, timing, navigation, saisie)
+3. **Understandable** : Contenu compréhensible (lisible, prévisible, assistance)
+4. **Robust** : Contenu robuste et compatible (parsing, nom/rôle/valeur)
+
+**Structure :**
+- 13 guidelines (directives)
+- 78 success criteria
+- 3 niveaux de conformité : A (minimum), AA (standard), AAA (optimal)
+
+Pour chaque critère :
+- ✅ Description et objectif
+- ✅ Niveau de conformité (A, AA, AAA)
+- ✅ Exemples de violations
+- ✅ Techniques de remédiation
+- ✅ Testing methods
+
+**Liens** : Utilisé par agents `accessibility-wcag-checker.md`, `multi-framework-analyzer.md`
+
+---
+
+### 📖 Design Systems Reference
+**Fichier :** `frameworks/design-systems-reference.md`
+
+Référence complète pour l'audit et la construction de design systems :
+
+**Taxonomie Design Tokens :**
+- Colors (primitives, semantic, component-level)
+- Typography (type scale, font stacks, line heights)
+- Spacing (grid, margins, padding scales)
+- Elevation (shadows, z-index layers)
+- Motion (durations, easings, keyframes)
+
+**Component Patterns :**
+- Buttons, Forms, Navigation, Data Display
+- API standards et props conventions
+- States (default, hover, focus, disabled, error)
+- Accessibility requirements par composant
+
+**Governance & Documentation :**
+- Versioning strategies (SemVer)
+- Contribution workflows
+- Documentation standards
+- Adoption metrics
+
+**Benchmarks** : Material Design (Google), Carbon (IBM), Polaris (Shopify), Lightning (Salesforce)
+
+**Liens** : Utilisé par agent `design-system-auditor.md`
+
+---
+
 ## 🎯 Use Cases
 
 ### Use Case 1 : Audit Rapide pour Sprint Planning
@@ -558,18 +759,19 @@ Pour chaque jour :
 - [x] Agent UX Research Scout (Competitive analysis, best practices, compliance)
 - [x] Framework UX Metrics Reference (HEART, NPS, retention, A/B testing benchmarks)
 
-### 🚧 Version 1.3 (Sprint 4 - Deliverables & Advanced)
-- [ ] Agent Persona Generator
-- [ ] Agent User Journey Mapper
-- [ ] Agent Accessibility WCAG Checker
-- [ ] Agent Multi-Framework Analyzer
-- [ ] Agent Design System Auditor
+### ✅ Version 1.3 (Sprint 4 - Complété - Deliverables & Advanced)
+- [x] Agent Persona Generator (Personas data-driven)
+- [x] Agent User Journey Mapper (Journey maps détaillées)
+- [x] Agent Accessibility WCAG Checker (Audit WCAG 2.1/2.2)
+- [x] Agent Multi-Framework Analyzer (Consolidation Nielsen + B&S + WCAG)
+- [x] Agent Design System Auditor (Audit design systems)
+- [x] Framework WCAG Reference (4 principes POUR, 78 critères)
+- [x] Framework Design Systems Reference (tokens, patterns, governance)
+- [x] Templates deliverables (4 templates) : Persona, User Journey, Empathy Map, WCAG Checklist
 
 ### 🚧 Version 1.4 (Sprint 5 - Orchestration)
 - [ ] Agent UX Workflow Coordinator
 - [ ] Agent Conversational UX Advisor
-- [ ] Templates complets (7 templates)
-- [ ] Frameworks : WCAG, Material Design, Apple HIG
 - [ ] Documentation : Orchestration Guide, Best Practices
 
 ---
@@ -683,21 +885,25 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
 
 ## 📈 Statistiques
 
-- **Agents disponibles** : 11
-  - Analyse : 2 (Nielsen, Bastien & Scapin)
+- **Agents disponibles** : 16
+  - Analyse : 4 (Nielsen, Bastien & Scapin, Multi-Framework Analyzer, Design System Auditor)
   - Workshops : 5 (Design Thinking, Design Sprint, Story Mapping, Impact Mapping, Lean UX Canvas)
   - Data Intelligence : 4 (Analytics Interpreter, Qualitative Feedback, A/B Test Analyst, UX Research Scout)
-- **Frameworks** : 5
+  - Deliverables : 3 (Persona Generator, User Journey Mapper, Accessibility WCAG Checker)
+- **Frameworks** : 7
   - Analyse : 2 (Nielsen 10 heuristiques, Bastien & Scapin 18 critères)
   - Workshops : 2 (Design Thinking, Design Sprint)
   - Data Intelligence : 1 (UX Metrics Reference - HEART, NPS, retention)
-- **Templates** : 6 (Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas)
-- **Critères d'évaluation** : 28 (10 Nielsen + 18 Bastien & Scapin)
-- **Workflows documentés** : 15+
-- **Version** : 1.2 (Sprint 3 complété - Data Intelligence)
+  - Advanced : 2 (WCAG 2.1/2.2 Reference, Design Systems Reference)
+- **Templates** : 10
+  - Workshops : 6 (Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas)
+  - Deliverables : 4 (Persona, User Journey, Empathy Map, WCAG Checklist)
+- **Critères d'évaluation** : 106 (10 Nielsen + 18 Bastien & Scapin + 78 WCAG)
+- **Workflows documentés** : 20+
+- **Version** : 1.3 (Sprint 4 complété - Deliverables & Advanced)
 
 ---
 
 **Transformez Claude en expert UX et accélérez votre pratique du design ! 🚀**
 
-*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01 (Sprint 3 - Data Intelligence)*
+*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01 (Sprint 4 - Deliverables & Advanced)*
