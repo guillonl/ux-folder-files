@@ -73,7 +73,8 @@ ux-folder-files/
 │   │   └── accessibility-wcag-checker.md    # ✅ Audit accessibilité WCAG 2.1/2.2
 │   │
 │   └── orchestrators/                 # Orchestrateurs et meta-agents
-│       └── (À venir Sprint 5)
+│       ├── ux-workflow-coordinator.md       # ✅ Orchestration workflows multi-agents
+│       └── conversational-ux-advisor.md     # ✅ Routing conversationnel intelligent
 │
 ├── templates/                         # Templates de livrables standardisés
 │   ├── workshops/                      # Templates workshops
@@ -99,8 +100,11 @@ ux-folder-files/
 │   ├── wcag-reference.md              # ✅ WCAG 2.1/2.2 (4 principes POUR, 78 critères)
 │   └── design-systems-reference.md    # ✅ Design Systems (tokens, patterns, governance)
 │
-└── docs/                              # Documentation
-    └── getting-started.md             # ✅ Guide de démarrage complet
+└── docs/                              # Documentation complète
+    ├── getting-started.md             # ✅ Guide de démarrage complet
+    ├── orchestration-guide.md         # ✅ Guide orchestration multi-agents
+    ├── advanced-workflows.md          # ✅ Workflows end-to-end complexes
+    └── api-usage-guide.md             # ✅ Utilisation programmatique (API)
 ```
 
 **Légende** : ✅ Disponible | 🚧 En cours | ⏳ À venir
@@ -156,6 +160,8 @@ L'agent posera des questions de clarification si nécessaire, puis exécutera sa
 
 ## 📚 Documentation Complète
 
+### Guides Principaux
+
 👉 **[Guide de Démarrage Complet](docs/getting-started.md)**
 
 Ce guide contient :
@@ -166,9 +172,32 @@ Ce guide contient :
 - ✅ Best practices et troubleshooting
 - ✅ Decision tree pour choisir le bon agent
 
+👉 **[Orchestration Guide](docs/orchestration-guide.md)**
+
+Guide complet d'orchestration multi-agents :
+- ✅ Matrice décisionnelle (Besoin × Profondeur)
+- ✅ 4 workflow patterns (Sequential Pipeline, Triangulation, Branching, Feedback Loop)
+- ✅ Handoff protocols standardisés
+- ✅ Use cases détaillés avec séquences d'agents
+
+👉 **[Advanced Workflows](docs/advanced-workflows.md)**
+
+Workflows UX end-to-end complexes :
+- ✅ 3 workflows complets (Discovery to Launch, Multi-Framework Audit, Analytics-Driven)
+- ✅ Workflows par industrie (SaaS B2B, E-commerce, Mobile apps)
+- ✅ Adaptations selon contraintes (temps, budget, compétences)
+
+👉 **[API Usage Guide](docs/api-usage-guide.md)**
+
+Guide d'utilisation programmatique :
+- ✅ Invocation agents via Claude API (Python, TypeScript)
+- ✅ Scripts d'automation
+- ✅ Intégration CI/CD
+- ✅ Best practices techniques
+
 ---
 
-## 🎓 Agents Disponibles (v1.3)
+## 🎓 Agents Disponibles (v1.4)
 
 ### Agents d'Analyse
 
@@ -502,6 +531,177 @@ Ce guide contient :
 
 ---
 
+### Analystes de Données Utilisateurs
+
+#### 📊 Analytics Interpreter
+**Fichier :** `agents/data-intelligence/analytics-interpreter.md`
+
+**Spécialisation :**
+- Interprétation de données analytics (GA4, Mixpanel, Amplitude)
+- Analyse de funnels, cohorts, retention
+- Création de dashboards et visualisations
+- Identification de patterns et anomalies
+
+**Utilisation typique :**
+- Comprendre baisse soudaine de métriques
+- Analyser performance de features
+- Optimiser funnels de conversion
+- Mesurer impact de changements design
+
+**Output :**
+- Rapport d'analyse avec visualisations
+- Insights actionnables priorisés
+- Recommandations d'optimisation
+- Hypothèses à tester
+
+**👉 Référence framework :** `frameworks/ux-metrics-reference.md`
+
+---
+
+#### 💬 Qualitative Feedback Analyzer
+**Fichier :** `agents/data-intelligence/qualitative-feedback-analyzer.md`
+
+**Spécialisation :**
+- Analyse de verbatims utilisateurs (reviews, support tickets, NPS)
+- Analyse de sentiment et thématique
+- Extraction de pain points et feature requests
+- Synthèse qualitative structurée
+
+**Utilisation typique :**
+- Comprendre le "pourquoi" derrière les métriques
+- Analyser feedback post-lancement
+- Identifier problèmes récurrents
+- Prioriser roadmap produit basée sur voice of customer
+
+**Output :**
+- Analyse thématique (clusters de feedback)
+- Sentiment analysis (positif/négatif/neutre par thème)
+- Top pain points avec fréquence et impact
+- Feature requests priorisés
+- Verbatims représentatifs par thème
+
+**👉 Référence framework :** `frameworks/ux-metrics-reference.md`
+
+---
+
+#### 🧪 A/B Test Analyst
+**Fichier :** `agents/data-intelligence/ab-test-analyst.md`
+
+**Spécialisation :**
+- Design d'expérimentations A/B/n
+- Calcul de sample size et durée optimale
+- Analyse statistique de résultats (significance, confidence intervals)
+- Recommandations de déploiement (rollout, rollback, iterate)
+
+**Utilisation typique :**
+- Valider hypothèses design
+- Optimiser conversions et engagement
+- Mesurer impact de features
+- Décisions data-driven (ship vs iterate)
+
+**Output :**
+- Test plan (hypothèse, variants, métriques, sample size)
+- Résultats d'analyse statistique
+- Visualisations de performance comparative
+- Recommandation GO/NO-GO avec justification
+- Plan de rollout progressif
+
+**👉 Référence framework :** `frameworks/ux-metrics-reference.md`
+
+---
+
+#### 🔍 UX Research Scout
+**Fichier :** `agents/data-intelligence/ux-research-scout.md`
+
+**Spécialisation :**
+- Recherche compétitive et best practices
+- Veille UX et tendances industrie
+- Analyse de conformité (GDPR, WCAG, RGAA)
+- Curation de ressources et références
+
+**Utilisation typique :**
+- Benchmarking concurrentiel
+- Inspiration design (design patterns)
+- Vérification compliance
+- Formation équipe sur nouvelles méthodologies
+
+**Output :**
+- Rapport de competitive analysis
+- Best practices par use case
+- Checklist de conformité
+- Ressources curatées (articles, études de cas)
+
+**👉 Référence framework :** `frameworks/ux-metrics-reference.md`
+
+---
+
+### Orchestrateurs & Meta-Agents
+
+#### 🎯 UX Workflow Coordinator
+**Fichier :** `agents/orchestrators/ux-workflow-coordinator.md`
+
+**Spécialisation :**
+- Orchestration de workflows multi-agents complexes
+- Sélection de séquences d'agents optimales selon contexte
+- Gestion de handoffs et agrégation de résultats
+- Coordination de pipelines séquentiels et parallèles
+
+**Utilisation typique :**
+- Projets UX complexes nécessitant plusieurs agents
+- Workflows end-to-end (discovery → validation → launch)
+- Audits multi-perspectives (Nielsen + B&S + WCAG → consolidation)
+- Projets nécessitant coordination entre analyse, workshops et deliverables
+
+**Output :**
+- Workflow plan (séquence d'agents avec dépendances)
+- Rapport consolidé unifié (agrégation de tous les agents)
+- Roadmap d'actions priorisées
+- Next steps recommandés
+
+**Process :**
+- Discovery : Clarifier besoin, contraintes, profondeur souhaitée
+- Workflow Selection : Choix via matrice décisionnelle (Besoin × Profondeur)
+- Agent Sequencing : Ordonnancement optimal (séquentiel/parallèle)
+- Execution : Lancement des agents avec handoffs
+- Aggregation : Consolidation des outputs
+- Synthesis : Rapport final avec recommandations
+
+**👉 Documentation associée :** `docs/orchestration-guide.md`, `docs/advanced-workflows.md`
+
+---
+
+#### 💡 Conversational UX Advisor
+**Fichier :** `agents/orchestrators/conversational-ux-advisor.md`
+
+**Spécialisation :**
+- Conseiller conversationnel pour routing intelligent vers agents
+- Diagnostic de besoins UX via questions stratégiques
+- Recommandations personnalisées d'agents et workflows
+- Guidance méthodologique et pédagogie UX
+
+**Utilisation typique :**
+- Point d'entrée pour utilisateurs ne sachant pas quel agent utiliser
+- Clarification de besoins UX complexes ou ambigus
+- Apprentissage des méthodologies UX disponibles
+- Guidance pour utilisateurs débutants ou intermédiaires
+
+**Output :**
+- Recommendation report (agent(s) recommandé(s) avec justification)
+- Quick start guide (étapes immédiates pour commencer)
+- Learning path (ressources pour approfondir)
+- Alternatives selon contraintes (temps, budget, expertise)
+
+**Process :**
+- Listening : Questions ouvertes pour comprendre besoin
+- Diagnosis : Catégorisation via decision tree (AUDIT/EXPLORE/VALIDATE/EXECUTE/MEASURE/LEARN)
+- Recommendation : Proposition avec justification
+- Alternatives : Options selon contraintes
+- Guidance : Accompagnement pendant exécution
+
+**👉 Documentation associée :** `docs/orchestration-guide.md`
+
+---
+
 ## 🔧 Frameworks de Référence
 
 ### 📖 Nielsen 10 Heuristiques
@@ -769,10 +969,12 @@ Référence complète pour l'audit et la construction de design systems :
 - [x] Framework Design Systems Reference (tokens, patterns, governance)
 - [x] Templates deliverables (4 templates) : Persona, User Journey, Empathy Map, WCAG Checklist
 
-### 🚧 Version 1.4 (Sprint 5 - Orchestration)
-- [ ] Agent UX Workflow Coordinator
-- [ ] Agent Conversational UX Advisor
-- [ ] Documentation : Orchestration Guide, Best Practices
+### ✅ Version 1.4 (Sprint 5 - Complété - Orchestration)
+- [x] Agent UX Workflow Coordinator (Orchestration workflows multi-agents)
+- [x] Agent Conversational UX Advisor (Routing conversationnel intelligent)
+- [x] Documentation Orchestration Guide (Decision matrix, workflow patterns, handoffs)
+- [x] Documentation Advanced Workflows (3 workflows end-to-end, adaptations industrie)
+- [x] Documentation API Usage Guide (Python/TypeScript, automation, CI/CD)
 
 ---
 
@@ -885,11 +1087,12 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
 
 ## 📈 Statistiques
 
-- **Agents disponibles** : 16
+- **Agents disponibles** : 18
   - Analyse : 4 (Nielsen, Bastien & Scapin, Multi-Framework Analyzer, Design System Auditor)
   - Workshops : 5 (Design Thinking, Design Sprint, Story Mapping, Impact Mapping, Lean UX Canvas)
   - Data Intelligence : 4 (Analytics Interpreter, Qualitative Feedback, A/B Test Analyst, UX Research Scout)
   - Deliverables : 3 (Persona Generator, User Journey Mapper, Accessibility WCAG Checker)
+  - Orchestrateurs : 2 (UX Workflow Coordinator, Conversational UX Advisor)
 - **Frameworks** : 7
   - Analyse : 2 (Nielsen 10 heuristiques, Bastien & Scapin 18 critères)
   - Workshops : 2 (Design Thinking, Design Sprint)
@@ -898,12 +1101,18 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
 - **Templates** : 10
   - Workshops : 6 (Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas)
   - Deliverables : 4 (Persona, User Journey, Empathy Map, WCAG Checklist)
+- **Documentation** : 5
+  - Getting Started Guide
+  - Orchestration Guide
+  - Advanced Workflows
+  - API Usage Guide
+  - Plan de Travail
 - **Critères d'évaluation** : 106 (10 Nielsen + 18 Bastien & Scapin + 78 WCAG)
-- **Workflows documentés** : 20+
-- **Version** : 1.3 (Sprint 4 complété - Deliverables & Advanced)
+- **Workflows documentés** : 30+
+- **Version** : 1.4 (Sprint 5 complété - Orchestration & Meta-Agents)
 
 ---
 
 **Transformez Claude en expert UX et accélérez votre pratique du design ! 🚀**
 
-*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01 (Sprint 4 - Deliverables & Advanced)*
+*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01-18 (Sprint 5 - Orchestration & Meta-Agents)*
