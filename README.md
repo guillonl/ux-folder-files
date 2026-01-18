@@ -60,7 +60,10 @@ ux-folder-files/
 │   │   └── lean-ux-canvas-facilitator.md   # ✅ Lean UX Canvas (Jeff Gothelf)
 │   │
 │   ├── data-intelligence/             # Analystes de données
-│   │   └── (À venir Sprint 3)
+│   │   ├── analytics-interpreter.md         # ✅ Interprétation analytics (GA4, funnels)
+│   │   ├── qualitative-feedback-analyzer.md # ✅ Analyse feedback qualitatif
+│   │   ├── ab-test-analyst.md               # ✅ Design et analyse A/B tests
+│   │   └── ux-research-scout.md             # ✅ Recherche compétitive et veille UX
 │   │
 │   ├── deliverables/                  # Générateurs de livrables
 │   │   └── (À venir Sprint 4)
@@ -81,7 +84,8 @@ ux-folder-files/
 │   ├── nielsen-10-heuristics.md       # ✅ 10 heuristiques Nielsen complètes
 │   ├── bastien-scapin-18-criteria.md  # ✅ 18 critères Bastien & Scapin détaillés
 │   ├── design-thinking-reference.md   # ✅ Design Thinking (Stanford d.school, IDEO)
-│   └── design-sprint-reference.md     # ✅ Design Sprint (Google Ventures)
+│   ├── design-sprint-reference.md     # ✅ Design Sprint (Google Ventures)
+│   └── ux-metrics-reference.md        # ✅ UX Metrics (HEART, NPS, retention, A/B testing)
 │
 └── docs/                              # Documentation
     └── getting-started.md             # ✅ Guide de démarrage complet
@@ -547,11 +551,12 @@ Pour chaque jour :
 - [x] Framework Design Sprint Reference
 - [x] Templates workshops (6 templates) : Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas
 
-### 🚧 Version 1.2 (Sprint 3 - Data Intelligence)
-- [ ] Agent Analytics Interpreter
-- [ ] Agent Qualitative Feedback Analyzer
-- [ ] Agent A/B Test Analyst
-- [ ] Agent UX Research Scout
+### ✅ Version 1.2 (Sprint 3 - Complété - Data Intelligence)
+- [x] Agent Analytics Interpreter (Interprétation GA4, funnels, retention)
+- [x] Agent Qualitative Feedback Analyzer (Analyse verbatims, sentiment)
+- [x] Agent A/B Test Analyst (Design expérimentations, analyse statistique)
+- [x] Agent UX Research Scout (Competitive analysis, best practices, compliance)
+- [x] Framework UX Metrics Reference (HEART, NPS, retention, A/B testing benchmarks)
 
 ### 🚧 Version 1.3 (Sprint 4 - Deliverables & Advanced)
 - [ ] Agent Persona Generator
@@ -678,19 +683,21 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
 
 ## 📈 Statistiques
 
-- **Agents disponibles** : 7
+- **Agents disponibles** : 11
   - Analyse : 2 (Nielsen, Bastien & Scapin)
   - Workshops : 5 (Design Thinking, Design Sprint, Story Mapping, Impact Mapping, Lean UX Canvas)
-- **Frameworks** : 4
+  - Data Intelligence : 4 (Analytics Interpreter, Qualitative Feedback, A/B Test Analyst, UX Research Scout)
+- **Frameworks** : 5
   - Analyse : 2 (Nielsen 10 heuristiques, Bastien & Scapin 18 critères)
   - Workshops : 2 (Design Thinking, Design Sprint)
+  - Data Intelligence : 1 (UX Metrics Reference - HEART, NPS, retention)
 - **Templates** : 6 (Empathy Map, POV Statement, HMW Questions, Story Map, Impact Map, Lean UX Canvas)
 - **Critères d'évaluation** : 28 (10 Nielsen + 18 Bastien & Scapin)
-- **Workflows documentés** : 10+
-- **Version** : 1.1 (Sprint 2 complété)
+- **Workflows documentés** : 15+
+- **Version** : 1.2 (Sprint 3 complété - Data Intelligence)
 
 ---
 
 **Transformez Claude en expert UX et accélérez votre pratique du design ! 🚀**
 
-*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01 (Sprint 2 - Workshop Facilitators)*
+*Repository maintenu et mis à jour régulièrement. Dernière mise à jour : 2026-01 (Sprint 3 - Data Intelligence)*
