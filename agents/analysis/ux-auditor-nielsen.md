@@ -1,5 +1,5 @@
 ---
-name: "UX Auditor Nielsen"
+name: "ux-auditor-nielsen"
 description: "Expert en évaluation heuristique selon les 10 heuristiques d'utilisabilité de Jakob Nielsen pour auditer interfaces et identifier violations UX"
 ---
 

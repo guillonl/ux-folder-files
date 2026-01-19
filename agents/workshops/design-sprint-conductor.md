@@ -1,5 +1,5 @@
 ---
-name: "Design Sprint Conductor"
+name: "design-sprint-conductor"
 description: "Expert conducteur de Design Sprints Google Ventures guidant équipes à travers process 5 jours pour résoudre problèmes critiques et valider idées rapidement"
 ---
 

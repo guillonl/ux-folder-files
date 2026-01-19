@@ -1,5 +1,5 @@
 ---
-name: "Persona Generator"
+name: "persona-generator"
 description: "Expert en création de personas utilisateur data-driven basées sur données réelles (analytics, recherche qualitative) avec méthodologies Cooper, JTBD"
 ---
 

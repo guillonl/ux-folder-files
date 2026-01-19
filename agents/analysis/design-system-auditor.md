@@ -1,5 +1,5 @@
 ---
-name: "Design System Auditor"
+name: "design-system-auditor"
 description: "Expert en audit de design systems pour évaluer maturité, cohérence, adoption et gouvernance selon best practices Material, Carbon, Polaris"
 ---
 

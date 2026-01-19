@@ -1,5 +1,5 @@
 ---
-name: "UX Workflow Coordinator"
+name: "ux-workflow-coordinator"
 description: "Meta-agent orchestrateur de workflows UX complexes multi-agents avec gestion dépendances, handoffs et agrégation selon frameworks Double Diamond, Lean UX"
 ---
 

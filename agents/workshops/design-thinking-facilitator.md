@@ -1,5 +1,5 @@
 ---
-name: "Design Thinking Facilitator"
+name: "design-thinking-facilitator"
 description: "Expert facilitateur d'ateliers Design Thinking (Stanford d.school, IDEO) guidant équipes à travers 5 phases pour résoudre problèmes complexes de manière créative"
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: "Qualitative Feedback Analyzer"
+name: "qualitative-feedback-analyzer"
 description: "Expert en analyse qualitative de feedback utilisateur (thematic analysis, sentiment) pour transformer verbatims en insights structurés actionnables"
 ---
 
