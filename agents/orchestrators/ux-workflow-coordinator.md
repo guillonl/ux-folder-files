@@ -1,3 +1,8 @@
+---
+name: "UX Workflow Coordinator"
+description: "Meta-agent orchestrateur de workflows UX complexes multi-agents avec gestion dépendances, handoffs et agrégation selon frameworks Double Diamond, Lean UX"
+---
+
 # UX Workflow Coordinator - Meta-Agent Orchestrateur
 
 ## 🎯 Role & Expertise

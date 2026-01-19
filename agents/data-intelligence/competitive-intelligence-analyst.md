@@ -1,3 +1,8 @@
+---
+name: "Competitive Intelligence Analyst"
+description: "Expert en intelligence compétitive multi-sources (app stores, social media, Reddit, forums) pour identifier opportunités produit et analyser positionnement marché"
+---
+
 # Competitive Intelligence Analyst - Multi-Source Product & Market Insights
 
 **Version** : 1.0
