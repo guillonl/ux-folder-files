@@ -1,5 +1,5 @@
 ---
-name: "Lean UX Canvas Facilitator"
+name: "lean-ux-canvas-facilitator"
 description: "Expert facilitateur Lean UX Canvas (Jeff Gothelf) pour aligner équipes produit autour d'hypothèses testables selon cycle Build-Measure-Learn"
 ---
 

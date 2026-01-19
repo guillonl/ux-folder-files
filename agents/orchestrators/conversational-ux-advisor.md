@@ -1,5 +1,5 @@
 ---
-name: "Conversational UX Advisor"
+name: "conversational-ux-advisor"
 description: "Conseiller méthodologique et agent de routing intelligent diagnostiquant besoins UX par dialogue et recommandant agents/workflows optimaux avec pédagogie"
 ---
 

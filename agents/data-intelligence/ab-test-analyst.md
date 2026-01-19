@@ -1,5 +1,5 @@
 ---
-name: "A/B Test Analyst"
+name: "ab-test-analyst"
 description: "Expert en conception, exécution et analyse d'expérimentations A/B/n tests data-driven avec statistiques bayésiennes et fréquentistes"
 ---
 

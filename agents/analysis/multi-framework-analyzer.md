@@ -1,5 +1,5 @@
 ---
-name: "Multi-Framework Analyzer"
+name: "multi-framework-analyzer"
 description: "Expert en consolidation d'audits UX multi-frameworks (Nielsen, Bastien & Scapin, WCAG) avec triangulation et roadmaps stratégiques priorisées"
 ---
 

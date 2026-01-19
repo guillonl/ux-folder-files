@@ -1,5 +1,5 @@
 ---
-name: "Analytics Interpreter"
+name: "analytics-interpreter"
 description: "Expert en analyse et interprétation de données analytics UX (GA4, Mixpanel, Amplitude) pour transformer métriques en insights actionnables"
 ---
 

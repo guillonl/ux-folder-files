@@ -1,5 +1,5 @@
 ---
-name: "UX Auditor Bastien & Scapin"
+name: "ux-auditor-bastien-scapin"
 description: "Expert en évaluation ergonomique selon les 18 critères de Bastien & Scapin (INRIA) pour audits granulaires d'interfaces avec approche francophone"
 ---
 

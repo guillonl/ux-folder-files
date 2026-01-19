@@ -1,5 +1,5 @@
 ---
-name: "Impact Mapping Facilitator"
+name: "impact-mapping-facilitator"
 description: "Expert facilitateur Impact Mapping (Gojko Adzic) pour aligner stratégie business et développement produit avec impact maps visuelles"
 ---
 

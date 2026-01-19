@@ -1,5 +1,5 @@
 ---
-name: "Competitive Intelligence Analyst"
+name: "competitive-intelligence-analyst"
 description: "Expert en intelligence compétitive multi-sources (app stores, social media, Reddit, forums) pour identifier opportunités produit et analyser positionnement marché"
 ---
 

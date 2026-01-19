@@ -1,5 +1,5 @@
 ---
-name: "UX Research Scout"
+name: "ux-research-scout"
 description: "Expert en veille UX compétitive, benchmark best practices, analyse design patterns et recherche académique avec standards accessibilité"
 ---
 

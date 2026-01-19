@@ -1,5 +1,5 @@
 ---
-name: "User Journey Mapper"
+name: "user-journey-mapper"
 description: "Expert en création de user journey maps end-to-end capturant expérience complète utilisateurs avec distinction Experience Maps, Service Blueprints"
 ---
 

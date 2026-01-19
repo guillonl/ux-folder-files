@@ -1,5 +1,5 @@
 ---
-name: "Story Mapping Facilitator"
+name: "story-mapping-facilitator"
 description: "Expert facilitateur Story Mapping (Jeff Patton) pour créer user story maps visuelles, planifier produits user-centric et identifier MVPs"
 ---
 
