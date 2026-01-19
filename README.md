@@ -65,7 +65,8 @@ ux-folder-files/
 │   │   ├── analytics-interpreter.md         # ✅ Interprétation analytics (GA4, funnels)
 │   │   ├── qualitative-feedback-analyzer.md # ✅ Analyse feedback qualitatif
 │   │   ├── ab-test-analyst.md               # ✅ Design et analyse A/B tests
-│   │   └── ux-research-scout.md             # ✅ Recherche compétitive et veille UX
+│   │   ├── ux-research-scout.md             # ✅ Recherche compétitive et veille UX
+│   │   └── competitive-intelligence-analyst.md # ✅ Intelligence compétitive multi-sources
 │   │
 │   ├── deliverables/                  # Générateurs de livrables
 │   │   ├── persona-generator.md             # ✅ Personas data-driven
@@ -635,6 +636,38 @@ Guide d'utilisation programmatique :
 
 ---
 
+#### 🎯 Competitive Intelligence Analyst
+**Fichier :** `agents/data-intelligence/competitive-intelligence-analyst.md`
+
+**Spécialisation :**
+- Intelligence compétitive multi-sources (benchmark, social media, app stores, communautés)
+- Analyse de positionnement compétitif et opportunités marché
+- Extraction d'insights actionnables depuis données publiques
+- Priorisation de features basée sur feedback utilisateurs (RICE, Kano, MoSCoW)
+
+**Utilisation typique :**
+- Benchmark concurrentiel approfondi
+- Découverte de feature opportunities
+- Monitoring du sentiment utilisateur (app reviews, Reddit, Twitter)
+- Analyse de tendances et menaces compétitives
+
+**Output :**
+- Strategic Intelligence Report (détaillé, Product team)
+- Executive Summary (1-page, C-level)
+- Feature Backlog avec RICE scoring
+- Competitive landscape map (SWOT, Porter's 5 Forces)
+- Recommandations stratégiques priorisées
+
+**Sources analysées :**
+- App Store/Play Store reviews
+- Réseaux sociaux (Twitter, LinkedIn, TikTok, YouTube)
+- Communautés (Reddit, Product Hunt, forums)
+- Plateformes de reviews (G2, Capterra, TrustRadius)
+
+**👉 Référence framework :** `frameworks/ux-metrics-reference.md`
+
+---
+
 ### Orchestrateurs & Meta-Agents
 
 #### 🎯 UX Workflow Coordinator
@@ -976,6 +1009,15 @@ Référence complète pour l'audit et la construction de design systems :
 - [x] Documentation Advanced Workflows (3 workflows end-to-end, adaptations industrie)
 - [x] Documentation API Usage Guide (Python/TypeScript, automation, CI/CD)
 
+### ✅ Version 1.5 (Sprint 6 - Complété - Competitive Intelligence)
+- [x] Agent Competitive Intelligence Analyst (Intelligence compétitive multi-sources)
+  - Benchmark compétitif approfondi
+  - Analyse app store reviews (iOS + Android)
+  - Social media listening (Twitter, LinkedIn, TikTok, YouTube)
+  - Community insights (Reddit, Product Hunt, forums)
+  - Feature prioritization (RICE, Kano, MoSCoW)
+  - 3 formats output (Strategic Report, Executive Summary, Feature Backlog)
+
 ---
 
 ## 🤝 Contribution
@@ -1087,10 +1129,10 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
 
 ## 📈 Statistiques
 
-- **Agents disponibles** : 18
+- **Agents disponibles** : 19
   - Analyse : 4 (Nielsen, Bastien & Scapin, Multi-Framework Analyzer, Design System Auditor)
   - Workshops : 5 (Design Thinking, Design Sprint, Story Mapping, Impact Mapping, Lean UX Canvas)
-  - Data Intelligence : 4 (Analytics Interpreter, Qualitative Feedback, A/B Test Analyst, UX Research Scout)
+  - Data Intelligence : 5 (Analytics Interpreter, Qualitative Feedback, A/B Test Analyst, UX Research Scout, Competitive Intelligence Analyst)
   - Deliverables : 3 (Persona Generator, User Journey Mapper, Accessibility WCAG Checker)
   - Orchestrateurs : 2 (UX Workflow Coordinator, Conversational UX Advisor)
 - **Frameworks** : 7
@@ -1109,7 +1151,8 @@ Merci à la communauté UX/UI pour les retours et contributions continues.
   - Plan de Travail
 - **Critères d'évaluation** : 106 (10 Nielsen + 18 Bastien & Scapin + 78 WCAG)
 - **Workflows documentés** : 30+
-- **Version** : 1.4 (Sprint 5 complété - Orchestration & Meta-Agents)
+- **Version** : 1.5 (Sprint 6 complété - Competitive Intelligence)
+- **Dernière mise à jour** : 2026-01-18
 
 ---
 

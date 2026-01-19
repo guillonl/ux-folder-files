@@ -206,24 +206,31 @@ Agents orchestrateurs pour workflows complexes et meta-guidance.
 - [x] advanced-workflows.md
 - [x] api-usage-guide.md
 
+### Sprint 6 (v1.5) ✅
+- [x] competitive-intelligence-analyst.md
+
 ---
 
 ## 🎯 Priorités Immédiates
 
-### Sprint 5 Complété ✅
+### Sprint 6 Complété ✅
 
-Tous les agents orchestrateurs et la documentation avancée ont été créés :
-- ✅ UX Workflow Coordinator (46 KB)
-- ✅ Conversational UX Advisor (41 KB)
-- ✅ Orchestration Guide (27 KB)
-- ✅ Advanced Workflows (20 KB)
-- ✅ API Usage Guide (18 KB)
-- ✅ README.md mis à jour (v1.4)
+L'agent d'intelligence compétitive multi-sources a été créé :
+- ✅ Competitive Intelligence Analyst (32 KB)
+  - Benchmark compétitif multi-sources
+  - Analyse app store reviews (iOS + Android)
+  - Social media listening (Twitter, LinkedIn, TikTok, YouTube)
+  - Community insights (Reddit, Product Hunt, forums)
+  - Feature prioritization (RICE, Kano, MoSCoW)
+  - 3 formats output (Strategic Report, Executive Summary, Feature Backlog)
+- ✅ README.md mis à jour (v1.5)
+- ✅ Plan de travail mis à jour
 
 ### Prochaines Actions
 
-1. **✅ Git commit final** : Sprint 5 complété
-2. **Suggestions futures** :
+1. **✅ Git commit final** : Sprint 6 complété
+2. **✅ Push vers GitHub et merge vers branche principale**
+3. **Suggestions futures** :
    - Créer exemples concrets d'utilisation
    - Ajouter case studies réels
    - Templates supplémentaires si besoin
@@ -280,14 +287,14 @@ Pour chaque nouvel agent :
 
 ## 📊 Métriques de Progression
 
-### Objectifs Totaux (v1.4)
-- **Agents** : 18 agents ✅
+### Objectifs Totaux (v1.5)
+- **Agents** : 19 agents ✅
 - **Frameworks** : 7 frameworks ✅
 - **Templates** : 10 templates ✅
 - **Documentation** : 5 docs ✅
 
 ### Progression Finale
-- **Agents** : 18/18 (100%) ✅
+- **Agents** : 19/19 (100%) ✅
 - **Frameworks** : 7/7 (100%) ✅
 - **Templates** : 10/10 (100%) ✅
 - **Documentation** : 5/5 (100%) ✅
@@ -296,13 +303,13 @@ Pour chaque nouvel agent :
 ### Répartition des Agents par Catégorie
 - **Analyse** : 4 (Nielsen, Bastien & Scapin, Multi-Framework, Design System)
 - **Workshops** : 5 (Design Thinking, Design Sprint, Story Mapping, Impact Mapping, Lean UX Canvas)
-- **Data Intelligence** : 4 (Analytics, Qualitative Feedback, A/B Test, UX Research)
+- **Data Intelligence** : 5 (Analytics, Qualitative Feedback, A/B Test, UX Research Scout, Competitive Intelligence Analyst) ✅
 - **Deliverables** : 3 (Persona, User Journey, Accessibility WCAG)
-- **Orchestrators** : 2 (UX Workflow Coordinator, Conversational UX Advisor) ✅
+- **Orchestrators** : 2 (UX Workflow Coordinator, Conversational UX Advisor)
 
 ### Taille Totale du Repository
-- **Code total** : ~540 KB de contenu expert
-- **Agents** : ~450 KB
+- **Code total** : ~572 KB de contenu expert
+- **Agents** : ~482 KB
 - **Frameworks** : ~50 KB
 - **Documentation** : ~40 KB
 - **Templates** : ~30 KB
@@ -310,4 +317,4 @@ Pour chaque nouvel agent :
 ---
 
 **Dernière mise à jour** : 2026-01-18
-**État** : Sprint 5 complété - Repository v1.4 finalisé ✅
+**État** : Sprint 6 complété - Repository v1.5 finalisé ✅
